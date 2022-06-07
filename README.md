@@ -22,3 +22,8 @@ procedural_artist.py -M number-of-threads -S number-of-steps
 
 * number-of-threads = number of artists
 * number-of-steps  = number of simulations to be run or number brush strokes each artist have
+
+# Example:
+ canvas.jpg contains painting created by running
+
+procedural_artist.py -M 1000 -S 1000
